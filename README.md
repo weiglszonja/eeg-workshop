@@ -17,7 +17,7 @@ to learn how to preprocess and analyse data with meeg-tools.
 
 # How to prepare?
 Please make the necessary installations before the workshop, you can access the slides
-for the initial setup from [here](https://github.com/weiglszonja/eeg-workshop/initial_python_project_setup.pdf). 
+for the initial setup from [here](https://github.com/weiglszonja/eeg-workshop/blob/master/initial_python_project_setup.pdf). 
 Feel free to reach out if you encounter any problems
 during the setup.
 
