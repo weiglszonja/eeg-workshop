@@ -1,0 +1,14 @@
+analysis:
+    overwrite: yes
+    picks: eeg
+    mode: power
+    conditions:
+        - triplet
+power:
+    is_evoked: yes
+    morlet:
+        fmin: 4
+        fmax: 45
+        step: 30
+        decim: 1
+    postfix: tfr.h5

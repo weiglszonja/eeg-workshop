@@ -1,0 +1,9 @@
+analysis:
+    overwrite: yes
+    picks: eeg
+    mode: erp
+    conditions:
+        - triplet
+erp:
+    method: median
+    postfix: ave.fif.gz
