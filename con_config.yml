@@ -1,0 +1,25 @@
+analysis:
+    overwrite: yes
+    picks: eeg
+    mode: con
+    conditions:
+      - triplet
+con:
+    tmin: 0.0
+    tmax: 0.75
+    use_laplace: no
+    method: wpli
+    postfix: con.nc
+    bands:
+        theta:
+            - 4.0
+            - 8.0
+        alpha:
+            - 8.0
+            - 13.0
+        beta:
+            - 13.0
+            - 30.0
+        gamma:
+            - 30.0
+            - 45.0
